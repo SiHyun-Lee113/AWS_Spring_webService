@@ -6,6 +6,9 @@ import com.example.awswithspringproject.springboot.web.dto.PostsResponseDto;
 import com.example.awswithspringproject.springboot.web.dto.PostsSaveRequestDto;
 import com.example.awswithspringproject.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
