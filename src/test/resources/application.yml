@@ -1,0 +1,16 @@
+# Test Oauth
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope: profile,email
+
+server:
+  servlet:
+    encoding:
+      force-response: true
