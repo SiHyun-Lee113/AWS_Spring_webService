@@ -10,7 +10,7 @@ class HelloResponseDtoTest {
 
     @Test
     public void 롬복_기능_테스트() {
-        String name = "test";
+        String name = "testㅁㄴㅇㄹ";
         int amount = 10000;
 
         HelloResponseDto dto = new HelloResponseDto(name, amount);
